@@ -15,4 +15,4 @@ PROXY_SERVER="socks5 208.102.51.6 58208"
 Use the regular method to set environment variables (in Orchest you can set the at the project, pipeline or job level).
 
 
-![Pipeline visualization](https://pviz.orchest.io/?pipeline=https://github.com/ricklamers/orchest-proxy-python-example/main.orchest)
+<!-- ![Pipeline visualization](https://pviz.orchest.io/?pipeline=https://github.com/ricklamers/orchest-proxy-python-example/main.orchest) -->
