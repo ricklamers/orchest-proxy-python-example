@@ -1,9 +1,12 @@
 # Update proxies
 
 # Proxy entries can also be added from environment variables by setting $PROXY_SERVER
-echo $PROXY_SERVER >> proxychains.conf
-cp proxychains.conf ~/.proxychains/proxychains.conf
 
-echo "Using proxies:" && cat proxychains.conf
+TMP_LOC=/tmp/proxychains.conf
+cp proxychains-template.conf $TMP_LOC
+echo $PROXY_SERVER >> $TMP_LOC
+cp $TMP_LOC ~/.proxychains/proxychains.conf
+
+echo "Using proxies:" && cat  ~/.proxychains/proxychains.conf
 
 proxychains4 python proxied.py
