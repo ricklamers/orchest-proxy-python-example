@@ -1,5 +1,5 @@
 # Proxied Python example in Orchest
-[![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=https://github.com/ricklamers/orchest-proxy-python-example)
+[![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest_large.svg)](https://cloud.orchest.io/?import_url=https://github.com/ricklamers/orchest-proxy-python-example)
 
 Sometimes it can be useful to be able to proxy all TCP connections that are made from a Python context. For example, when connecting to databases that have specific firewall rules based on the IP of the connection.
 
