@@ -1,0 +1,53 @@
+{
+    "name": "Main",
+    "parameters": {},
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "9e1fbf27-ee2c-447e-80db-c64239ca876a": {
+            "environment": "fc4660f0-e1a5-4c6c-b4f4-a14bf7babba9",
+            "file_path": "wrapper-proxied.sh",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    185,
+                    420.5
+                ]
+            },
+            "parameters": {},
+            "title": "Proxied Python Script",
+            "uuid": "9e1fbf27-ee2c-447e-80db-c64239ca876a"
+        },
+        "a8767ea7-076d-41f7-8f24-9fa96ea865c7": {
+            "environment": "fc4660f0-e1a5-4c6c-b4f4-a14bf7babba9",
+            "file_path": "receive.py",
+            "incoming_connections": [
+                "9e1fbf27-ee2c-447e-80db-c64239ca876a"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    515,
+                    421.5
+                ]
+            },
+            "parameters": {},
+            "title": "Test receive",
+            "uuid": "a8767ea7-076d-41f7-8f24-9fa96ea865c7"
+        }
+    },
+    "uuid": "a7f61c5f-1cf8-48d1-be90-fb3b574b1c4f",
+    "version": "1.0.0"
+}
